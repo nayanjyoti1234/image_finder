@@ -1,10 +1,10 @@
 import React from 'react';
 
 const Emoji = (props) => {
+		console.log(props);
 	return (
-		<div className='emo' >
-			<div className={props.img}>
-			</div>
+		<div className='imageStyle'>
+			<img className='image' src={props.imgUrl} alt='find'/>
 		</div>
 	);
 };
