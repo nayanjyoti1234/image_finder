@@ -1,27 +1,29 @@
-.bt1{
-    padding: 40px 82px;
-    text-align: center;
-    display: inline-block;
-    font-size: 66px;
-  }
-.bt2{ 
-    padding: 40px 82px;
-    text-align: center;
-    display: inline-block;
-    font-size: 66px;
-  }
-.bt3{
-    padding: 40px 82px;
-    text-align: center;
-    display: inline-block;
-    font-size: 66px;
-  }
-.bt4{
+.bt1, .bt2, .bt3, .bt4 {
       padding: 40px 82px;
       text-align: center;
       display: inline-block;
       font-size: 66px;
   }
+
+  .bt1 {
+	  background-color : green;
+  }
+
+  .bt2 {
+	  background-color : blue;
+  }
+
+  .bt3 {
+	  background-color : yellow;
+  }
+
+  .bt4 {
+	  background-color : red;
+  }
+
+.emo{
+      background-color:papayawhip;
+}
 .happy{
        transform: scale(0.5);
        height: 60vh;
